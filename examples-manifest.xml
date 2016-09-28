@@ -3,7 +3,7 @@
     <examples>
         <example name="QmlScreenExtras - Gather Info about screens and set propertys" docUrl="qthelp://org.qmlscreenextras.100/qmlscreenextras/qmlscreenextras-screenexample-example.html" projectPath="qmlscreenextras/screenexample/screenexample.pro" imageUrl="qthelp://org.qmlscreenextras.100/qmlscreenextras/images/qmlscreenextras-example.png">
             <description><![CDATA[Example that shows how to use ScreenExtras]]></description>
-            <tags>qml,qmlscreenextras,about,propertys,screen,set,gather,extras,info,screens</tags>
+            <tags>gather,set,screens,info,extras,screen,about,propertys,qml,qmlscreenextras</tags>
             <fileToOpen mainFile="true">qmlscreenextras/screenexample/main.cpp</fileToOpen>
         </example>
     </examples>

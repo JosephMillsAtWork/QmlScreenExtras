@@ -13,42 +13,42 @@
         </toc>
         <keywords>
             <keyword name="ScreenExtras" id="QML.ScreenExtras" ref="qml-qmlscreenextras-screenextras.html"/>
-            <keyword name="primaryScreenName" id="ScreenExtras::primaryScreenName" ref="qml-qmlscreenextras-screenextras.html#primaryScreenName-prop"/>
-            <keyword name="desktopHeight" id="ScreenExtras::desktopHeight" ref="qml-qmlscreenextras-screenextras.html#desktopHeight-prop"/>
-            <keyword name="screenNameAt" id="ScreenExtras::screenNameAt" ref="qml-qmlscreenextras-screenextras.html#screenNameAt-method"/>
             <keyword name="virtualHeight" id="ScreenExtras::virtualHeight" ref="qml-qmlscreenextras-screenextras.html#virtualHeight-prop"/>
-            <keyword name="desktopWidth" id="ScreenExtras::desktopWidth" ref="qml-qmlscreenextras-screenextras.html#desktopWidth-prop"/>
-            <keyword name="virtualWidth" id="ScreenExtras::virtualWidth" ref="qml-qmlscreenextras-screenextras.html#virtualWidth-prop"/>
-            <keyword name="font" id="ScreenExtras::font" ref="qml-qmlscreenextras-screenextras.html#font-method"/>
-            <keyword name="numberOfScreens" id="ScreenExtras::numberOfScreens" ref="qml-qmlscreenextras-screenextras.html#numberOfScreens-prop"/>
-            <keyword name="screenRefreshRateAt" id="ScreenExtras::screenRefreshRateAt" ref="qml-qmlscreenextras-screenextras.html#screenRefreshRateAt-method"/>
             <keyword name="scaleSize" id="ScreenExtras::scaleSize" ref="qml-qmlscreenextras-screenextras.html#scaleSize-prop"/>
+            <keyword name="desktopWidth" id="ScreenExtras::desktopWidth" ref="qml-qmlscreenextras-screenextras.html#desktopWidth-prop"/>
+            <keyword name="screenRefreshRateAt" id="ScreenExtras::screenRefreshRateAt" ref="qml-qmlscreenextras-screenextras.html#screenRefreshRateAt-method"/>
+            <keyword name="virtualWidth" id="ScreenExtras::virtualWidth" ref="qml-qmlscreenextras-screenextras.html#virtualWidth-prop"/>
+            <keyword name="desktopHeight" id="ScreenExtras::desktopHeight" ref="qml-qmlscreenextras-screenextras.html#desktopHeight-prop"/>
+            <keyword name="numberOfScreens" id="ScreenExtras::numberOfScreens" ref="qml-qmlscreenextras-screenextras.html#numberOfScreens-prop"/>
+            <keyword name="font" id="ScreenExtras::font" ref="qml-qmlscreenextras-screenextras.html#font-method"/>
+            <keyword name="screenNameAt" id="ScreenExtras::screenNameAt" ref="qml-qmlscreenextras-screenextras.html#screenNameAt-method"/>
             <keyword name="formFactor" id="ScreenExtras::formFactor" ref="qml-qmlscreenextras-screenextras.html#formFactor-prop"/>
+            <keyword name="primaryScreenName" id="ScreenExtras::primaryScreenName" ref="qml-qmlscreenextras-screenextras.html#primaryScreenName-prop"/>
             <keyword name="QmlScreenExtras" id="QmlScreenExtras" ref="qmlscreenextras-qmlmodule.html"/>
             <keyword name="QmlScreenExtras - Gather Info about screens and set propertys" id="QmlScreenExtras - Gather Info about screens and set propertys" ref="qmlscreenextras-screenexample-example.html"/>
         </keywords>
         <files>
-            <file>images/home.png</file>
-            <file>qmlscreenextras-screenexample-qml-qrc.html</file>
             <file>images/bullet_dn.png</file>
-            <file>images/logo.png</file>
-            <file>qml-qmlscreenextras-screenextras-members.html</file>
-            <file>images/qmlscreenextras-example.png</file>
             <file>style/offline-simple.css</file>
-            <file>images/arrow_bc.png</file>
-            <file>images/ico_note.png</file>
-            <file>qmlscreenextras-screenexample-screenexample-pro.html</file>
-            <file>qml-qmlscreenextras-screenextras.html</file>
-            <file>qmlscreenextras-qmlmodule.html</file>
-            <file>images/bgrContent.png</file>
-            <file>style/offline.css</file>
-            <file>images/btn_prev.png</file>
             <file>images/bullet_sq.png</file>
-            <file>images/ico_note_attention.png</file>
-            <file>images/ico_out.png</file>
+            <file>images/qmlscreenextras-example.png</file>
+            <file>images/bgrContent.png</file>
+            <file>qmlscreenextras-screenexample-qml-qrc.html</file>
             <file>qmlscreenextras-screenexample-example.html</file>
             <file>images/btn_next.png</file>
+            <file>qml-qmlscreenextras-screenextras-members.html</file>
+            <file>qmlscreenextras-screenexample-screenexample-pro.html</file>
+            <file>qmlscreenextras-qmlmodule.html</file>
+            <file>style/offline.css</file>
+            <file>images/ico_note_attention.png</file>
+            <file>qml-qmlscreenextras-screenextras.html</file>
+            <file>images/btn_prev.png</file>
+            <file>images/ico_note.png</file>
+            <file>images/arrow_bc.png</file>
+            <file>images/ico_out.png</file>
             <file>qmlscreenextras-screenexample-main-cpp.html</file>
+            <file>images/home.png</file>
+            <file>images/logo.png</file>
         </files>
     </filterSection>
 </QtHelpProject>
