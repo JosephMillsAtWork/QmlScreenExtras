@@ -73,7 +73,7 @@ Coming soon
 #### Docs
 
 Building the docs are also built into the qmake system. You can view the docs on the gh-pages
-located [here]()
+located [here](https://josephmillsatwork.github.io/QmlScreenExtras/)
 
 Below this will make all the html docs and install the qch file into your qt system
 
