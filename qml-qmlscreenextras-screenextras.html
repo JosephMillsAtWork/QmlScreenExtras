@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- screen.cpp -->
+  <title>ScreenExtras QML Type | QmlScreenExtras 1.0</title>
+  <link rel="stylesheet" type="text/css" href="style/offline-simple.css" />
+  <script type="text/javascript">
+    window.onload = function(){document.getElementsByTagName("link").item(0).setAttribute("href", "style/offline.css");};
+  </script>
+</head>
+<body>
+<div class="header" id="qtdocheader">
+  <div class="main">
+    <div class="main-rounded">
+      <div class="navigationbar">
+        <table><tr>
+        </tr></table>
+      </div>
+    </div>
+<div class="content">
+<div class="line">
+<div class="content mainContent">
+<div class="sidebar">
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#properties">Properties</a></li>
+<li class="level1"><a href="#methods">Methods</a></li>
+<li class="level1"><a href="#details">Detailed Description</a></li>
+</ul>
+</div>
+<div class="sidebar-content" id="sidebar-content"></div></div>
+<h1 class="title">ScreenExtras QML Type</h1>
+<span class="subtitle"></span>
+<!-- $$$ScreenExtras-brief -->
+<p>A Signleton that is used to gather information about screens and set up things like Font sizes and scale sizes <a href="#details">More...</a></p>
+<!-- @@@ScreenExtras -->
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> Import Statement:</td><td class="memItemRight bottomAlign"> import QmlScreenExtras 1.0</td></tr></table></div><ul>
+<li><a href="qml-qmlscreenextras-screenextras-members.html">List of all members, including inherited members</a></li>
+</ul>
+<a name="properties"></a>
+<h2 id="properties">Properties</h2>
+<ul>
+<li class="fn"><b><b><a href="qml-qmlscreenextras-screenextras.html#desktopHeight-prop">desktopHeight</a></b></b> : int</li>
+<li class="fn"><b><b><a href="qml-qmlscreenextras-screenextras.html#desktopWidth-prop">desktopWidth</a></b></b> : int</li>
+<li class="fn"><b><b><a href="qml-qmlscreenextras-screenextras.html#formFactor-prop">formFactor</a></b></b> : string</li>
+<li class="fn"><b><b><a href="qml-qmlscreenextras-screenextras.html#numberOfScreens-prop">numberOfScreens</a></b></b> : int</li>
+<li class="fn"><b><b><a href="qml-qmlscreenextras-screenextras.html#primaryScreenName-prop">primaryScreenName</a></b></b> : string</li>
+<li class="fn"><b><b><a href="qml-qmlscreenextras-screenextras.html#scaleSize-prop">scaleSize</a></b></b> : double</li>
+<li class="fn"><b><b><a href="qml-qmlscreenextras-screenextras.html#virtualHeight-prop">virtualHeight</a></b></b> : int</li>
+<li class="fn"><b><b><a href="qml-qmlscreenextras-screenextras.html#virtualWidth-prop">virtualWidth</a></b></b> : int</li>
+</ul>
+<a name="methods"></a>
+<h2 id="methods">Methods</h2>
+<ul>
+<li class="fn"><b><b><a href="qml-qmlscreenextras-screenextras.html#font-method">font</a></b></b>(<i>Font</i>)</li>
+<li class="fn"><b><b><a href="qml-qmlscreenextras-screenextras.html#screenNameAt-method">screenNameAt</a></b></b>(int <i>screenNumber</i>)</li>
+<li class="fn"><b><b><a href="qml-qmlscreenextras-screenextras.html#screenRefreshRateAt-method">screenRefreshRateAt</a></b></b>(int <i>screenNUmber</i>)</li>
+</ul>
+<!-- $$$ScreenExtras-description -->
+<a name="details"></a>
+<h2 id="details">Detailed Description</h2>
+</p>
+<p>Example of using the font</p>
+<pre class="cpp">
+
+  Text{
+     font<span class="operator">.</span>pixelSize: ScreenExtras<span class="operator">.</span>font(ScreenExtras<span class="operator">.</span>NORMAL)
+  }
+
+</pre>
+<p>Example of setting width or height</p>
+<p>this would set the width of the Rectangle to 16 px if the scale size is 1</p>
+<pre class="cpp">
+
+  Rectangle{
+     width ScreenExtras<span class="operator">.</span>gu(<span class="number">2</span>)
+  }
+
+</pre>
+<!-- @@@ScreenExtras -->
+<h2>Property Documentation</h2>
+<!-- $$$desktopHeight -->
+<div class="qmlitem"><div class="qmlproto">
+<div class="table"><table class="qmlname">
+<tr valign="top" class="odd" id="desktopHeight-prop">
+<td class="tblQmlPropNode"><p>
+<a name="desktopHeight-prop"></a><span class="name">desktopHeight</span> : <span class="type">int</span></p></td></tr>
+</table></div>
+</div><div class="qmldoc"><p>Returns the Screens height. This is without the Window managers padding. designHeight</p>
+<p><b>See also </b><a href="qml-qmlscreenextras-screenextras.html#virtualHeight-prop">virtualHeight</a>.</p>
+</div></div><!-- @@@desktopHeight -->
+<br/>
+<!-- $$$desktopWidth -->
+<div class="qmlitem"><div class="qmlproto">
+<div class="table"><table class="qmlname">
+<tr valign="top" class="odd" id="desktopWidth-prop">
+<td class="tblQmlPropNode"><p>
+<a name="desktopWidth-prop"></a><span class="name">desktopWidth</span> : <span class="type">int</span></p></td></tr>
+</table></div>
+</div><div class="qmldoc"><p>Returns the Screens width. This is without the Window managers padding. if you would like to get the screens width minus what the window manager is taking up see designWidth</p>
+<p><b>See also </b><a href="qml-qmlscreenextras-screenextras.html#virtualWidth-prop">virtualWidth</a>.</p>
+</div></div><!-- @@@desktopWidth -->
+<br/>
+<!-- $$$formFactor -->
+<div class="qmlitem"><div class="qmlproto">
+<div class="table"><table class="qmlname">
+<tr valign="top" class="odd" id="formFactor-prop">
+<td class="tblQmlPropNode"><p>
+<a name="formFactor-prop"></a><span class="name">formFactor</span> : <span class="type">string</span></p></td></tr>
+</table></div>
+</div><div class="qmldoc"><p>returns the current formfactor as a string for the device that is being used</p>
+<p>There are 5 values</p>
+<ul>
+<li>desktop</li>
+<li>tv</li>
+<li>phablet</li>
+<li>tablet</li>
+<li>phone</li>
+</ul>
+</div></div><!-- @@@formFactor -->
+<br/>
+<!-- $$$numberOfScreens -->
+<div class="qmlitem"><div class="qmlproto">
+<div class="table"><table class="qmlname">
+<tr valign="top" class="odd" id="numberOfScreens-prop">
+<td class="tblQmlPropNode"><p>
+<a name="numberOfScreens-prop"></a><span class="name">numberOfScreens</span> : <span class="type">int</span></p></td></tr>
+</table></div>
+</div><div class="qmldoc"><p>Returns a number of all the screens associated with the windowing system the application is connected to.</p>
+</div></div><!-- @@@numberOfScreens -->
+<br/>
+<!-- $$$primaryScreenName -->
+<div class="qmlitem"><div class="qmlproto">
+<div class="table"><table class="qmlname">
+<tr valign="top" class="odd" id="primaryScreenName-prop">
+<td class="tblQmlPropNode"><p>
+<a name="primaryScreenName-prop"></a><span class="name">primaryScreenName</span> : <span class="type">string</span></p></td></tr>
+</table></div>
+</div><div class="qmldoc"><p>Returns a common name fro the primary screen.</p>
+</div></div><!-- @@@primaryScreenName -->
+<br/>
+<!-- $$$scaleSize -->
+<div class="qmlitem"><div class="qmlproto">
+<div class="table"><table class="qmlname">
+<tr valign="top" class="odd" id="scaleSize-prop">
+<td class="tblQmlPropNode"><p>
+<a name="scaleSize-prop"></a><span class="name">scaleSize</span> : <span class="type">double</span></p></td></tr>
+</table></div>
+</div><div class="qmldoc"><p>returns what QScreen thinks the scaleSize should be set to. I would not use this.</p>
+</div></div><!-- @@@scaleSize -->
+<br/>
+<!-- $$$virtualHeight -->
+<div class="qmlitem"><div class="qmlproto">
+<div class="table"><table class="qmlname">
+<tr valign="top" class="odd" id="virtualHeight-prop">
+<td class="tblQmlPropNode"><p>
+<a name="virtualHeight-prop"></a><span class="name">virtualHeight</span> : <span class="type">int</span></p></td></tr>
+</table></div>
+</div><div class="qmldoc"><p>This property holds the available width of the Screen minus what the windowmanager is taking up</p>
+</div></div><!-- @@@virtualHeight -->
+<br/>
+<!-- $$$virtualWidth -->
+<div class="qmlitem"><div class="qmlproto">
+<div class="table"><table class="qmlname">
+<tr valign="top" class="odd" id="virtualWidth-prop">
+<td class="tblQmlPropNode"><p>
+<a name="virtualWidth-prop"></a><span class="name">virtualWidth</span> : <span class="type">int</span></p></td></tr>
+</table></div>
+</div><div class="qmldoc"><p>This property holds the available width of the Screen minus what the windowmanager is taking up</p>
+</div></div><!-- @@@virtualWidth -->
+<br/>
+<h2>Method Documentation</h2>
+<!-- $$$font -->
+<div class="qmlitem"><div class="qmlproto">
+<div class="table"><table class="qmlname">
+<tr valign="top" class="odd" id="font-method">
+<td class="tblQmlFuncNode"><p>
+<a name="font-method"></a><span class="name">font</span>(<i>Font</i>)</p></td></tr>
+</table></div>
+</div><div class="qmldoc"><p>FontSize</p>
+<p>This is used to set the font size here is a example</p>
+<pre class="cpp">
+
+  Text{
+     font<span class="operator">.</span>pixelSize: ScreenExtras<span class="operator">.</span>font(ScreenExtras<span class="operator">.</span>NORMAL)
+  }
+
+</pre>
+<p>see also the types of font sizes</p>
+</div></div><!-- @@@font -->
+<br/>
+<!-- $$$screenNameAt -->
+<div class="qmlitem"><div class="qmlproto">
+<div class="table"><table class="qmlname">
+<tr valign="top" class="odd" id="screenNameAt-method">
+<td class="tblQmlFuncNode"><p>
+<a name="screenNameAt-method"></a><span class="name">screenNameAt</span>(<span class="type">int</span> <i>screenNumber</i>)</p></td></tr>
+</table></div>
+</div><div class="qmldoc"><p>returns the name of a a screen at a given int</p>
+</div></div><!-- @@@screenNameAt -->
+<br/>
+<!-- $$$screenRefreshRateAt -->
+<div class="qmlitem"><div class="qmlproto">
+<div class="table"><table class="qmlname">
+<tr valign="top" class="odd" id="screenRefreshRateAt-method">
+<td class="tblQmlFuncNode"><p>
+<a name="screenRefreshRateAt-method"></a><span class="name">screenRefreshRateAt</span>(<span class="type">int</span> <i>screenNUmber</i>)</p></td></tr>
+</table></div>
+</div><div class="qmldoc"><p>Returns the refresh rate of a screen at its interger,</p>
+<p>Example: say that I have for screens attached to a machine and I want to get teh refresh rate of the screen that is the 3rd one.</p>
+<pre class="cpp">
+
+  ScreenExtras<span class="operator">.</span>screenRefreshRateAt(<span class="number">2</span>)
+
+</pre>
+<p><b>See also </b><a href="qml-qmlscreenextras-screenextras.html#numberOfScreens-prop">numberOfScreens</a>.</p>
+</div></div><!-- @@@screenRefreshRateAt -->
+<br/>
+        </div>
+       </div>
+   </div>
+   </div>
+</div>
+<div class="footer">
+   <p>
+   <acronym title="Copyright">&copy;</acronym> 2016 Joseph Mills.
+   Documentation contributions included herein are the copyrights of
+   their respective owners.<br>    The documentation provided herein is licensed under the terms of the    <a href="http://www.gnu.org/licenses/fdl.html">GNU Free Documentation    License version 1.3</a> as published by the Free Software Foundation.<br>    </p>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="https://github.com/JosephMillsAtWork/QmlScreenExtras" title="QmlScreenExtras Documentation" version="1.0" project="QmlScreenExtras">
+    <namespace threadsafety="unspecified" name="" status="active" access="public" module="qmlscreenextras">
+        <page name="screenexample" href="qmlscreenextras-screenexample-example.html" status="active" location="screenextras-example.qdoc" filepath="/home/joseph/opensource/QmlScreenExtras/example/screenexample/doc/screenextras-example.qdoc" lineno="18" subtype="example" title="QmlScreenExtras - Gather Info about screens and set propertys" fulltitle="QmlScreenExtras - Gather Info about screens and set propertys" subtitle="" module="QmlScreenExtras" groups="qmlscreenextras-examples" brief="Example that shows how to use ScreenExtras">
+            <contents name="running-the-example" title="Running the Example" level="1"/>
+            <page name="screenexample/main.cpp" href="qmlscreenextras-screenexample-main-cpp.html" status="active" subtype="file" title="" fulltitle="main.cpp Example File" subtitle="screenexample/main.cpp"/>
+            <page name="screenexample/qml.qrc" href="qmlscreenextras-screenexample-qml-qrc.html" status="active" subtype="file" title="" fulltitle="qml.qrc Example File" subtitle="screenexample/qml.qrc"/>
+            <page name="screenexample/screenexample.pro" href="qmlscreenextras-screenexample-screenexample-pro.html" status="active" subtype="file" title="" fulltitle="screenexample.pro Example File" subtitle="screenexample/screenexample.pro"/>
+        </page>
+        <qmlclass threadsafety="unspecified" name="ScreenExtras" qml-module-name="QmlScreenExtras" fullname="QmlScreenExtras.ScreenExtras" href="qml-qmlscreenextras-screenextras.html" status="active" access="public" title="ScreenExtras" fulltitle="ScreenExtras" subtitle="" brief="A Signleton that is used to gather information about screens and set up things like Font sizes and scale sizes">
+            <qmlproperty threadsafety="unspecified" name="desktopHeight" fullname="QmlScreenExtras.ScreenExtras.desktopHeight" href="qml-qmlscreenextras-screenextras.html#desktopHeight-prop" status="active" access="public" type="int" attached="false" writable="true"/>
+            <qmlproperty threadsafety="unspecified" name="desktopWidth" fullname="QmlScreenExtras.ScreenExtras.desktopWidth" href="qml-qmlscreenextras-screenextras.html#desktopWidth-prop" status="active" access="public" type="int" attached="false" writable="true"/>
+            <qmlproperty threadsafety="unspecified" name="formFactor" fullname="QmlScreenExtras.ScreenExtras.formFactor" href="qml-qmlscreenextras-screenextras.html#formFactor-prop" status="active" access="public" type="string" attached="false" writable="true"/>
+            <qmlproperty threadsafety="unspecified" name="numberOfScreens" fullname="QmlScreenExtras.ScreenExtras.numberOfScreens" href="qml-qmlscreenextras-screenextras.html#numberOfScreens-prop" status="active" access="public" type="int" attached="false" writable="true"/>
+            <qmlproperty threadsafety="unspecified" name="primaryScreenName" fullname="QmlScreenExtras.ScreenExtras.primaryScreenName" href="qml-qmlscreenextras-screenextras.html#primaryScreenName-prop" status="active" access="public" type="string" attached="false" writable="true"/>
+            <qmlproperty threadsafety="unspecified" name="scaleSize" fullname="QmlScreenExtras.ScreenExtras.scaleSize" href="qml-qmlscreenextras-screenextras.html#scaleSize-prop" status="active" access="public" type="double" attached="false" writable="true"/>
+            <qmlproperty threadsafety="unspecified" name="virtualHeight" fullname="QmlScreenExtras.ScreenExtras.virtualHeight" href="qml-qmlscreenextras-screenextras.html#virtualHeight-prop" status="active" access="public" type="int" attached="false" writable="true"/>
+            <qmlproperty threadsafety="unspecified" name="virtualWidth" fullname="QmlScreenExtras.ScreenExtras.virtualWidth" href="qml-qmlscreenextras-screenextras.html#virtualWidth-prop" status="active" access="public" type="int" attached="false" writable="true"/>
+            <qmlmethod threadsafety="unspecified" name="font" fullname="QmlScreenExtras.ScreenExtras.font" href="qml-qmlscreenextras-screenextras.html#font-method" status="active" access="public"/>
+            <qmlmethod threadsafety="unspecified" name="screenNameAt" fullname="QmlScreenExtras.ScreenExtras.screenNameAt" href="qml-qmlscreenextras-screenextras.html#screenNameAt-method" status="active" access="public"/>
+            <qmlmethod threadsafety="unspecified" name="screenRefreshRateAt" fullname="QmlScreenExtras.ScreenExtras.screenRefreshRateAt" href="qml-qmlscreenextras-screenextras.html#screenRefreshRateAt-method" status="active" access="public"/>
+        </qmlclass>
+        <group name="qmlscreenextras-examples" href="qmlscreenextras-examples.html" status="internal" seen="false" title="" members="screenexample"/>
+        <qmlmodule name="QmlScreenExtras" qml-module-name="QmlScreenExtras" qml-module-version="1.0" href="qmlscreenextras-qmlmodule.html" status="active" location="qml-qmlscreenextras.qdoc" filepath="/home/joseph/opensource/QmlScreenExtras/docs/src/qml-qmlscreenextras.qdoc" lineno="1" seen="true" title="QmlScreenExtras Objects" module="QmlScreenExtras" members="ScreenExtras" brief="Extra Information about attached Screens"/>
+    </namespace>
+</INDEX>

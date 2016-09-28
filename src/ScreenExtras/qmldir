@@ -1,3 +1,0 @@
-module QmlScreenExtras
-plugin QmlScreenExtras
-classname ScreenExtrasPlugin
