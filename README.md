@@ -4,6 +4,8 @@ Simple singleton that is used to gather info about device and setup gridunits ba
 the device and what formfactor it is the size of the screen. Also has some font propertys
 that can be handy.
 
+![Alt text](https://github.com/JosephMillsAtWork/QmlScreenExtras/blob/master/docs/images/qmlscreenextras-example.png?raw=true)
+
 #### Building and Installing
 ````
     qmake
