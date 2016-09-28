@@ -1,0 +1,35 @@
+/****************************************************************************
+**
+** Copyright (C) Joseph Mills
+** Contact: josephjamesmills@gmail.com
+**
+**
+** GNU Free Documentation License Usage
+** Alternatively, this file may be used under the terms of the GNU Free
+** Documentation License version 1.3 as published by the Free Software
+** Foundation and appearing in the file included in the packaging of
+** this file. Please review the following information to ensure
+** the GNU Free Documentation License version 1.3 requirements
+** will be met: http://www.gnu.org/copyleft/fdl.html.
+**
+****************************************************************************/
+
+
+/*!
+    \example screenexample
+    \title QmlScreenExtras - Gather Info about screens and set propertys
+    \ingroup qmlscreenextras-examples
+    \brief Example that shows how to use ScreenExtras
+    \image qmlscreenextras-example.png
+
+
+    This example project demonstrates How to use ScreenExtras form factor, Setup grid units
+    and set fonts based on its built in enums
+
+    \section1 Running the Example
+
+    To run the example from  Qt Creator Manual, open the  Welcome
+    mode and select the example from Examples. For more information, visit
+    Qt Creator: Building and Running an Example.
+
+*/
