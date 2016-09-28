@@ -281,6 +281,27 @@ void ScreenExtras::setDevicePixelRatio(const double &devicePixelRatio)
     emit devicePixelRatioChanged();
 }
 
+/*!
+ \qmlmethod ScreenExtras::gu( int units)
+    Returns the grid units that are used per device. This is by far one of the best features of
+This helper class.
+
+Each grid unit by default it 8px the example below show what a rectangles height
+should be at 80px. So in other words it multiplys the passed in int by 8 if there is no scale size.
+
+Example:
+
+\code
+    Rectangle {
+        id: simpleRec
+        width: parent.width
+        // Rectangle at 10 gu for the height
+        height: ScreenExtras.gu(10)
+    }
+\endcode
+
+\sa scaleSize
+ */
 double ScreenExtras::gu(double units)
 {
     return units * m_gridUnit;
