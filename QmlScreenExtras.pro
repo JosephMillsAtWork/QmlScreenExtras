@@ -8,4 +8,6 @@ SUBDIRS += \
 
 OTHER_FILES += \
     $$PWD/LICENSE \
-    $$PWD/README.md
+    $$PWD/README.md \
+    $$PWD/com_github_JosephMillsAtWork_QmlScreenExtras.pri \
+    $$PWD/qpm.json

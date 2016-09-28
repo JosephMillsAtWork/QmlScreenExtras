@@ -1,0 +1,22 @@
+{
+  "name": "com.github.JosephMillsAtWork.QmlScreenExtras",
+  "description": "Simple but powerful singleton for gathering info about screens and device info.",
+  "author": {
+    "name": "Joseph Mills",
+    "email": "josephjamesmills@gmail.com"
+  },
+  "repository": {
+    "type": "GITHUB",
+    "url": "https://github.com/JosephMillsAtWork/QmlScreenExtras.git"
+  },
+  "version": {
+    "label": "1.0.0",
+    "revision": "",
+    "fingerprint": ""
+  },
+  "dependencies": [
+  ],
+  "license": "MIT",
+  "pri_filename": "com_github_JosephMillsAtWork_QmlScreenExtras.pri",
+  "webpage": "https://josephmillsatwork.github.io/QmlScreenExtras/"
+}
